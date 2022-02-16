@@ -25,4 +25,5 @@ button {
 input {
     height: 90%;
     border: none;
+    text-align: center;
 }

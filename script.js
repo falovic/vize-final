@@ -1,5 +1,5 @@
 
-var vize = 20;
+var vize = 50;
 var final = 80;
 var ortalama = (vize * 0.3) + (final * 0.7);
 
