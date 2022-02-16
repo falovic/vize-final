@@ -42,3 +42,9 @@ else if (ortalama >= 80 && ortalama <= 100) {
     var harf = "AA";
     var durum = `Geçtiniz`;
 }
+
+function push() {
+    document.getElementById("ortalama").innerHTML = `${ortalama}`;
+    document.getElementById("harf").innerHTML = `${harf}`;
+    document.getElementById("durum").innerHTML = `${durum}`;
+}
