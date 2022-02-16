@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Vize & Final</title>
+</head>
+
+<body>
+    <div>
+
+        <table>
+            <tr>
+                <th>Vize</th>
+                <td><input id="vize" type="text"></td>
+            </tr>
+            <tr>
+                <th>Final</th>
+                <td><input id="final" type="text"></td>
+            </tr>
+            <tr>
+                <th>Ortalama</th>
+                <td><p id="ortalama"></p></td>
+            </tr>
+            <tr>
+                <th>Harf Notu</th>
+                <td><p id="harf"></p></td>
+            </tr>
+            <tr>
+                <th>Durum</th>
+                <td><p id="durum"></p></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick='document.getElementById("ortalama").innerHTML = `${ortalama}`,
+                    document.getElementById("harf").innerHTML = `${harf}`,
+                    document.getElementById("durum").innerHTML = `${durum}`'>Hesapla</button></td>
+                <td><button type="button" value="Refresh" onClick="window.location.reload()">Sıfırla</button></td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+
+</html>
