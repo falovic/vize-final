@@ -1,2 +1,4 @@
-# vize-final
-Puan Hesaplama
+# Vize & Final
+
+> - JS pratiğimi geliştirmek için yaptığım puan hesaplama tablosu.
+> - Tablo henüz bitmedi, ufak 1 - 2 eksiği var.
